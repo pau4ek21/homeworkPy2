@@ -22,11 +22,15 @@
 # #
 # # Пример: - Для n = 6: {1: 4, 2: 7, 3: 10, 4: 13, 5: 16, 6: 19}
 #
-# number = int(input('input number: '))
-# summa = 0
-# for i in range(1, number):
-#     count = (1 + 1 / i) ** i
-#     print(f'{i}:{"%.2f" % count}')
-#     summa += count
-#
-# print(f'total: {"%.2f" % summa}') # ПОЖАЛУЙСТА ОБЪЯСНИТЕ, ТАК И НЕ СМОГ ПОНЯТЬ КАК МНЕ СДЕЛАТЬ ТАК ЧТО БЫ ПРИ НАПИСАНИИ N = 6 ОН НЕ ВЫДАВАЛ МНЕ 5 СТРОК
+number = int(input('input number: '))
+summa = 0
+for i in range(1, number + 1):
+    count = (1 + 1 / i) ** i
+    print(f'{i}:{"%.2f" % count}')
+    summa += count
+
+print(f'total: {"%.2f" % summa}') # ПОЖАЛУЙСТА ОБЪЯСНИТЕ, ТАК И НЕ СМОГ ПОНЯТЬ КАК МНЕ СДЕЛАТЬ ТАК ЧТО БЫ ПРИ НАПИСАНИИ N = 6 ОН НЕ ВЫДАВАЛ МНЕ 5 СТРОК
+
+
+
+
