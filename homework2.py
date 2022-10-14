@@ -29,8 +29,7 @@ for i in range(1, number + 1):
     print(f'{i}:{"%.2f" % count}')
     summa += count
 
-print(f'total: {"%.2f" % summa}') # ПОЖАЛУЙСТА ОБЪЯСНИТЕ, ТАК И НЕ СМОГ ПОНЯТЬ КАК МНЕ СДЕЛАТЬ ТАК ЧТО БЫ ПРИ НАПИСАНИИ N = 6 ОН НЕ ВЫДАВАЛ МНЕ 5 СТРОК
-
+print(f'total: {"%.2f" % summa}')
 
 
 
